@@ -76,7 +76,11 @@ CMD su - git -c "/root/gogs/gogs web"
     在浏览器中输入：http://docker宿主机IP:3000 ，在弹出页面中：
     
 数据库设置=》数据库用户密码：111111
-                        数据库主机：172.0.0.2
+
+            数据库主机：172.0.0.2
+                        
 应用基本设置=》运行系统用户：root
-                            域名：docker宿主机IP
-                            应用URL：把localhost 换成 docker宿主机IP
+
+              域名：docker宿主机IP
+                            
+              应用URL：把localhost 换成 docker宿主机IP
